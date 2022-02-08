@@ -5,6 +5,8 @@ Finalidade da aula:
 1) criação de um projeto Angular
 2) abrindo o navegador com o Angular
 
+OBS.: o git precisa estar aberto dentro da pasta /src do projeto ao fazer os commits.
+
 
 - Após efetuar a instalação do NodeJS e do NPM, entre no diretório my-first-app e daremos o seguinte comando no cmd:
 npm install -g @angular/cli@latest
