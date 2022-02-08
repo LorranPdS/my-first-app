@@ -4,6 +4,20 @@ Será um aplicativo baseado em Angular como aula da Udemy
 OBS.: o git precisa estar aberto dentro da pasta /src do projeto ao fazer os commits.
 
 Finalidade da aula:
-1) conhecendo editores de código - WebStorm e VSCode
-2) entendendo o AppComponent do básico (envolvendo a troca de títulos das chaves)
-3) um básico do NgModule (colocando o dado dentro de um input)
+1) apresentar as estruturas a serem aprendidas no curso
+
+As estruturas que aprenderemos serão as seguintes:
+- Getting Started
+- The Basics
+- Components & Databinding
+- Directives
+- Services & Dependency Injection
+- Routing
+- Observables
+- Forms
+- Pipes
+- Http
+- Authentication
+- Optimizations & NgModules
+- Deployment
++ Animations & Testing
