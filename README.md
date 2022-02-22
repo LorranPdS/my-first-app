@@ -1,16 +1,15 @@
 # my-first-app
 Será um aplicativo baseado em Angular como aula da Udemy
 
-AULA 21 - Creating components with the CLI and Nesting components
+AULA 22 - working with component templates
 
 OBS.: rodar o git no próprio projeto mesmo
 
 Finalidade da aula:
-Criação de componentes com o CLI e com o Nesting
+Entender como trabalhar com templates no component
 
-1) exemplo de comando para criação de componente:
-ng generate component servers
- ou usando a forma abreviada abaixo
-ng g c servers
+A ideia é mostrar que tem como, ao invés de declarar a URL, declarar o próprio componente dentro do campo 'template'.
 
-O arquivo de testes de extensão .spec.ts foi removido porque não o usaremos agora
+Foi usada crase na declaração do template mas poderia ser aspas simples também.
+
+Essa não é uma forma muito usada, mas caso queira, é possível de se usar, o importante é que você saiba que precisa ter algo declarado lá no template
