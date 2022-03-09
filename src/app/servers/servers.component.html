@@ -1,5 +1,7 @@
-<button class="btn btn-primary" [disabled]="!allowNewServer">Add Server</button>
+<button class="btn btn-primary" [disabled]="!allowNewServer"
+(click)="onCreateServer()">Add Server</button>
 <!--  <p >{{ allowNewServer }} Veja o README.md para entender qual seria melhor usar</p> -->
+<p>{{ serverCreateStatus }}</p>
 <p [innerText]="allowNewServer"></p>
 <app-server></app-server>
 <app-server></app-server>

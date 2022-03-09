@@ -1,14 +1,13 @@
 # my-first-app
 Será um aplicativo baseado em Angular como aula da Udemy
 
-AULA 29 - Property Binding vs String Interpolation
+AULA 30 - Event Binding
 
 OBS.: rodar o git no próprio projeto mesmo
 
 Finalidade da aula:
-Entender qual das duas alternativas dar preferência para usar: se a interpolation ou property binding
+Usar o event binding para que, ao clicarmos no botão, mude a exibição da mensagem.
 
-RESPOSTA:
-- se você deseja produzir algo em seu modelo, imprimir algum texto para ele, use a "interpolation de string"
+Se fosse no JavaScript, nós usaríamos o evento onclick, mas no Angular basta nós colocarmos os parênteses para que o Angular entenda que será feito um evento com o que está entre parênteses.
 
-- agora se você quiser alterar alguma propriedade, seja de um elemento HTML, de uma diretiva (aprenderemos mais tarde) ou de um componente, use a "property binding".
+Irão passar os 2 segundos para habilitar o botão e após isso, você poderá clicar nele e a mensagem será alterada para a que você colocou dentro do método.
