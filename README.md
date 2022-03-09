@@ -1,13 +1,16 @@
 # my-first-app
 Será um aplicativo baseado em Angular como aula da Udemy
 
-AULA 30 - Event Binding
+AULA 31 - Bindable Properties and Events
 
 OBS.: rodar o git no próprio projeto mesmo
 
 Finalidade da aula:
-Usar o event binding para que, ao clicarmos no botão, mude a exibição da mensagem.
+Leitura da documentação
 
-Se fosse no JavaScript, nós usaríamos o evento onclick, mas no Angular basta nós colocarmos os parênteses para que o Angular entenda que será feito um evento com o que está entre parênteses.
+How do you know to which Properties or Events of HTML Elements you may bind? You can basically bind to all Properties and Events - a good idea is to 'console.log()' the element you're interested in to see which properties and events it offers.
 
-Irão passar os 2 segundos para habilitar o botão e após isso, você poderá clicar nele e a mensagem será alterada para a que você colocou dentro do método.
+Important: For events, you don't bind to onclick but only to click 
+(=>(click)).
+
+The MDN (Mozila Developer Network) offers nice lists of all properties and events of the element you're interested in. Googling for 'YOUR_ELEMENT properties' or 'YOUR_ELEMENT events' should yield nice results.
