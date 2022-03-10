@@ -25,7 +25,6 @@ export class ServersComponent implements OnInit {
   }
 
   onUpdateServerName(event: Event){
-    // foi usado o .value porque foi usado o F12 lá na tela e o valor está nesse .value
     this.serverName = (<HTMLInputElement>event.target).value;
   }
 
