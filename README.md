@@ -1,11 +1,15 @@
 # my-first-app
 Será um aplicativo baseado em Angular como aula da Udemy
 
-AULA 32 - Passing and Using Data with Event Binding
+AULA 33 - Important: FormsModule is Required for Two-Way-Binding!
 
 OBS.: rodar o git no próprio projeto mesmo
 
 Finalidade da aula:
-Digitar em um campo de texto e ir aparecendo logo abaixo o que estamos escrevendo nesse campo
+Leitura do artigo
 
-Esse é um evento tanto de entrada quanto de saída
+Important: For Two-Way-Binding (covered in the next lecture) to work, you need to enable the ngModel  directive. This is done by adding the FormsModule  to the imports[]  array in the AppModule.
+
+You then also need to add the import from @angular/forms  in the app.module.ts file:
+
+import { FormsModule } from '@angular/forms';
