@@ -1,16 +1,11 @@
 # my-first-app
 Será um aplicativo baseado em Angular como aula da Udemy
 
-AULA 31 - Bindable Properties and Events
+AULA 32 - Passing and Using Data with Event Binding
 
 OBS.: rodar o git no próprio projeto mesmo
 
 Finalidade da aula:
-Leitura da documentação
+Digitar em um campo de texto e ir aparecendo logo abaixo o que estamos escrevendo nesse campo
 
-How do you know to which Properties or Events of HTML Elements you may bind? You can basically bind to all Properties and Events - a good idea is to 'console.log()' the element you're interested in to see which properties and events it offers.
-
-Important: For events, you don't bind to onclick but only to click 
-(=>(click)).
-
-The MDN (Mozila Developer Network) offers nice lists of all properties and events of the element you're interested in. Googling for 'YOUR_ELEMENT properties' or 'YOUR_ELEMENT events' should yield nice results.
+Esse é um evento tanto de entrada quanto de saída
