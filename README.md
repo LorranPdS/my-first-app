@@ -1,11 +1,9 @@
 # my-first-app
 Será um aplicativo baseado em Angular como aula da Udemy
 
-AULA 34 - Two-Way-Binding
+AULA 35 - Combining all Forms of Databinding
 
 OBS.: rodar o git no próprio projeto mesmo
 
 Finalidade da aula:
-Funcionamento do Two-Way-Databinding
-
-O Two-Way-Binding funciona como uma vinculação bidirecional. Sendo assim ele tanto vai pegar o que já está definido no .ts quanto o que será enviado do template.
+Usar todas as 4 formas de Databinding (vinculação) juntas.
