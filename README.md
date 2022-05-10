@@ -24,7 +24,7 @@ AULA 38 - Using ngIf to Output Data Conditionally
 Finalidade da aula:
 Aprender a usar a diretiva *ngIf
 
-O ngIf precisa ser adicionado com um asterisco antes dele. O asterisco é necessário porque o ngIf é uma diretiva estrutural, o que significa que ela altera a estrutura do nosso DOM, ou adiciona esse elemento ou não o adiciona.
+O ngIf precisa ser adicionado com um asterisco antes dele. O asterisco é necessário porque o ngIf é uma diretiva estrutural, o que significa que ela altera a estrutura do nosso DOM, ou adiciona esse elemento ou não o adiciona. Veja que no nosso caso o *ngIf ele vai receber um true ou um false, e dependendo do que ele receber, ele vai mostrar na tela ou não aquela mensagem que foi criada no próprio HTML.
 
 Após termos posto o *ngIf, podemos configurar nossas condições no que ficar entre aspas.
 
