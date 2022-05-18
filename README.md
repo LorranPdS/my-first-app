@@ -11,3 +11,4 @@ Aprender a usar o ngClass
 Foi criada a classe em CSS ".online" e com isso faremos com que, sempre que o serverStatus estiver === online, a cor da letra seja branca.
 
 Por esse motivo foi usado o ngClass, para pegar o .online, que é um class no CSS.
+...
