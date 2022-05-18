@@ -1,15 +1,11 @@
 # my-first-app
 Será um aplicativo baseado em Angular como aula da Udemy
 
-AULA 39 - Enhancing ngIf with an Else Condition
+AULA 40 - Styling Elements Dynamically with ngStyle
 
 OBS.: rodar o git no próprio projeto mesmo
 
 Finalidade da aula:
-Uso de uma condição no *ngIf
+Aprender a usar o ngStyle
 
-Conseguimos então colocar algo como um if/else na exibição do DOM dependendo da condição. Não é comum usar isso mas é para sabermos que existe.
-
-Com aquele ng-template (uma referência local), marcamos um ponto no template que queremos mostrar condicionalmente.
-
-Feito isso, acrescentaremos esse resultado do que vem no # tendo a resposta dessa parte no template no else que está no *ngIf.
+Veremos que foi colocado o método getColor() no arquivo html, mas poderia ser uma cor em aspas simples mesmo. A forma como foi feita pelo professor foi pra deixar dinâmico, pois o [ngStyle] possibilita que isso seja trabalhado de forma dinâmica (não estática com uma cor só).
